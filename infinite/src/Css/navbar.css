@@ -1,0 +1,65 @@
+.navbar-container {
+    font-family:Orbitron;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    border-radius: 50px; /* Curved edges */
+    padding: 15px 30px;
+    margin: 0px auto;
+    width: 80%; /* Adjust width as per your design */
+    
+  }
+  
+  .logo {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),   /* Glowing white light */
+    0 0 20px rgba(255, 255, 255, 0.6),   /* Stronger inner glow */
+    0 0 30px rgba(255, 255, 255, 0.4);
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .nav-items {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    color: #ffd700; /* Haiti-themed yellow on hover */
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+    color: #ffffff;
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .right-side > div {
+    font-weight: 600;
+  }
+  
+  .small-text {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  

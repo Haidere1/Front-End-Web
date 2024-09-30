@@ -1,0 +1,175 @@
+.sneaker-card {
+    
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    position: relative;
+    padding: 15px 30px;
+    margin: 30px auto;
+    width: 80%;
+  }
+  .logo1
+  {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),   /* Glowing white light */
+    0 0 20px rgba(255, 255, 255, 0.6),   /* Stronger inner glow */
+    0 0 30px rgba(255, 255, 255, 0.4);
+    width: 30%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ffffff;
+    
+  }
+  .content-1
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-2
+  {
+
+    display: flex;
+    flex-direction: row;
+    text-align: top;
+    
+  }
+ .inner-2 h1
+ {
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size:200px;
+    padding: 0;
+
+ }
+ .inner_2_content_1
+ {
+  width: 50%;
+  color: white;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+ }
+ .login_inner_2 button
+ {
+  color: white;
+  text-decoration: none;
+  background: rgba(233, 90, 19, 0.1);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  font-family: Orbitron;
+  height: 50px;
+  width: 120px;
+  margin-left: 110%;
+  font-size: x-large;
+  border-radius: 20px;
+ }
+
+ /* display */
+.content-2
+{
+  
+  display: flex;
+  flex-direction: row;
+}
+ .sneaker-content-card {
+  width: 40%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+.sneaker-image {
+  border-radius: 20px;
+  width: 100%;
+  height: 80%;
+  background-image: url('../Css/Backgrounds/sneaker.jpg');
+  background-size: cover;
+  text-align:center;
+  text-align: left;
+
+}
+
+.sneaker-image h3 {
+  font-size: 50px;
+  color: #fff;
+  margin: 0;
+  margin-left:20px;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.sneaker-image p {
+  color: #ccc;
+  font-size: 25px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+
+
+
+.refresh-control {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.refresh-btn {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mode {
+  color: #ccc;
+  font-size: 16px;
+  text-align: right;
+
+}
+
+.sneaker-show
+{
+  background-color: blueviolet;
+  background-image: url('../Css/Backgrounds/bg4.jpg');
+  background-size: cover;
+  border-radius: 20px;
+  margin-left: 20px;
+  height: 700px;
+  width: 80%;
+position: relative;
+}
+.overlay
+{
+  background: rgba(233, 90, 19, 0.1);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color:white;
+  position:absolute;
+  top: 90%;
+  right: 0;
+  height: 70px;
+}
